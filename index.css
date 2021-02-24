@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+body {
+  background-color: black;
+  color: rgb(216, 216, 216);
+}
+h1 {
+  font-size: 50px;
+}
+header {
+  text-align: center;
+}
+#head-title {
+  margin-top: 20px;
+}
+.again {
+  padding: 20px;
+  background-color: rgb(184, 184, 184);
+  margin: 20px;
+  cursor: pointer;
+}
+.again:hover {
+  background-color: gray;
+  color: white;
+}
+.number {
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  background-color: rgb(213, 213, 213);
+  color: black;
+  padding: 40px;
+  width: 100px;
+  margin: 30px auto 20px auto;
+  font-size: 50px;
+}
+.answer-container {
+  margin-top: 100px;
+  text-align: center;
+}
+.IO {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 100px auto;
+}
+#message {
+  font-size: 35px;
+}
+.TheGuess {
+  width: 250px;
+  font-size: 30px;
+  height: 70px;
+  background-color: rgb(34, 31, 31);
+  border: 5px solid white;
+  color: white;
+  text-align: center;
+}
+.click-check {
+  width: 250px;
+  height: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.click-check ::hover {
+  background-color: rgb(161, 158, 158);
+}
+
+#score-label {
+  margin-top: 40px;
+  text-align: left;
+  font-size: 30px;
+}
+#highscore-label {
+  text-align: left;
+  font-size: 30px;
+}
