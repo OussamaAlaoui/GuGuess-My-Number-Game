@@ -10,3 +10,4 @@ The "Guess My Number Game" is a small, simple web game (for practicing JavaScrip
 4. Player wins if he guessed the correct value
 5. Player loses if he didn't guess the number under then 20 attempt
 6. User can play again by clicking the "Play again button"
+7. Players can keep track of their best highscore
